@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.placeholder-hero{min-height:480px}
+.placeholder-circle{width:140px;height:140px}
+.placeholder-500{width:100%;max-width:500px;height:500px}
