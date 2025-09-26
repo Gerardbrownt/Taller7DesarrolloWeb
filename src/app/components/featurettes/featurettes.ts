@@ -12,14 +12,20 @@ type Side = 'left' | 'right';
 })
 export class Featurettes {
   items: Array<{ title: string; subtitle: string; side: Side }> = [
-    { title: 'First featurette heading. It’ll blow your mind.',
+    { 
+      title: 'First featurette heading. It’ll blow your mind.',
       subtitle: 'Algo de texto de ejemplo para la primera featurette.',
-      side: 'right' },
-    { title: 'Oh yeah, it’s that good. See for yourself.',
+      side: 'right' 
+    },
+    { 
+      title: 'Oh yeah, it’s that good. See for yourself.',
       subtitle: 'Otra featurette: alterna la posición del bloque visual.',
-      side: 'left' },
-    { title: 'And lastly, this one. Checkmate.',
+      side: 'left' 
+    },
+    { 
+      title: 'And lastly, this one. Checkmate.',
       subtitle: 'Última featurette con el bloque visual al lado contrario.',
-      side: 'right' }
+      side: 'right' 
+    }
   ];
 }
